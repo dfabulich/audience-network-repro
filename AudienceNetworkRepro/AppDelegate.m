@@ -15,7 +15,7 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [FBAudienceNetworkAds initializeWithSettings:nil completionHandler:nil];
     return YES;
 }
 
