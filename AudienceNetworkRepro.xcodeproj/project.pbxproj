@@ -14,9 +14,12 @@
 		61884C3B2811C271004BEA47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61884C3A2811C271004BEA47 /* Assets.xcassets */; };
 		61884C3E2811C271004BEA47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61884C3C2811C271004BEA47 /* LaunchScreen.storyboard */; };
 		61884C412811C271004BEA47 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61884C402811C271004BEA47 /* main.m */; };
+		A0A9762018058AF89D7FC915 /* Pods_AudienceNetworkRepro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB9983EAEF7C31470558DA8D /* Pods_AudienceNetworkRepro.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00CAF63C22532F550C555619 /* Pods-AudienceNetworkRepro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudienceNetworkRepro.release.xcconfig"; path = "Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro.release.xcconfig"; sourceTree = "<group>"; };
+		40367D3966B1E090BAFA550B /* Pods-AudienceNetworkRepro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AudienceNetworkRepro.debug.xcconfig"; path = "Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro.debug.xcconfig"; sourceTree = "<group>"; };
 		61884C2B2811C270004BEA47 /* AudienceNetworkRepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudienceNetworkRepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		61884C2E2811C270004BEA47 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		61884C2F2811C270004BEA47 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -29,6 +32,7 @@
 		61884C3D2811C271004BEA47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		61884C3F2811C271004BEA47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		61884C402811C271004BEA47 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB9983EAEF7C31470558DA8D /* Pods_AudienceNetworkRepro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AudienceNetworkRepro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +40,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0A9762018058AF89D7FC915 /* Pods_AudienceNetworkRepro.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4091BB223E651E19C7FA5648 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				40367D3966B1E090BAFA550B /* Pods-AudienceNetworkRepro.debug.xcconfig */,
+				00CAF63C22532F550C555619 /* Pods-AudienceNetworkRepro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		61884C222811C270004BEA47 = {
 			isa = PBXGroup;
 			children = (
 				61884C2D2811C270004BEA47 /* AudienceNetworkRepro */,
 				61884C2C2811C270004BEA47 /* Products */,
+				4091BB223E651E19C7FA5648 /* Pods */,
+				884E6C9B231135C624BC1236 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -76,6 +92,14 @@
 			path = AudienceNetworkRepro;
 			sourceTree = "<group>";
 		};
+		884E6C9B231135C624BC1236 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB9983EAEF7C31470558DA8D /* Pods_AudienceNetworkRepro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -83,9 +107,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 61884C442811C271004BEA47 /* Build configuration list for PBXNativeTarget "AudienceNetworkRepro" */;
 			buildPhases = (
+				55BBC683EBE1875F5A1BE62D /* [CP] Check Pods Manifest.lock */,
 				61884C272811C270004BEA47 /* Sources */,
 				61884C282811C270004BEA47 /* Frameworks */,
 				61884C292811C270004BEA47 /* Resources */,
+				C0D54A43E2001B5629E8C865 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -140,6 +166,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		55BBC683EBE1875F5A1BE62D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AudienceNetworkRepro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C0D54A43E2001B5629E8C865 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		61884C272811C270004BEA47 /* Sources */ = {
@@ -287,6 +355,7 @@
 		};
 		61884C452811C271004BEA47 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40367D3966B1E090BAFA550B /* Pods-AudienceNetworkRepro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -314,6 +383,7 @@
 		};
 		61884C462811C271004BEA47 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 00CAF63C22532F550C555619 /* Pods-AudienceNetworkRepro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

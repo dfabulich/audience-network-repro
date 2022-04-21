@@ -1,0 +1,2 @@
+${PODS_ROOT}/Target Support Files/Pods-AudienceNetworkRepro/Pods-AudienceNetworkRepro-frameworks.sh
+${PODS_XCFRAMEWORKS_BUILD_DIR}/FBAudienceNetwork/FBAudienceNetwork.framework/FBAudienceNetwork
