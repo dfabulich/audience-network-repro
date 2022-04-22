@@ -15,6 +15,8 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    [ALSdk shared].mediationProvider = @"max";
+    [[ALSdk shared] initializeSdkWithCompletionHandler:nil];
     [FBAudienceNetworkAds initializeWithSettings:nil completionHandler:nil];
     return YES;
 }

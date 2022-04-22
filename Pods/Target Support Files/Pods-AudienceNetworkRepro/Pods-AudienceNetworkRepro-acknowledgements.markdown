@@ -1,6 +1,24 @@
 # Acknowledgements
 This application makes use of the following third party libraries:
 
+## AppLovinMediationFacebookAdapter
+
+
+Copyright 2022 AppLovin Corp. All rights reserved.
+
+The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
+
+
+
+## AppLovinSDK
+
+
+Copyright 2022 AppLovin Corp. All rights reserved.
+
+The AppLovin SDK is available under a commercial license (https://www.applovin.com/eula).
+
+
+
 ## FBAudienceNetwork
 
 Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.

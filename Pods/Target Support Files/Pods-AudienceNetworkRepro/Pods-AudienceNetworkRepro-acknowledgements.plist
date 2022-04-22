@@ -14,6 +14,36 @@
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>
+Copyright 2022 AppLovin Corp. All rights reserved.
+
+The AppLovin MAX SDK is available under a commercial license (https://www.applovin.com/eula).
+
+</string>
+			<key>License</key>
+			<string>Commercial License</string>
+			<key>Title</key>
+			<string>AppLovinMediationFacebookAdapter</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
+			<string>
+Copyright 2022 AppLovin Corp. All rights reserved.
+
+The AppLovin SDK is available under a commercial license (https://www.applovin.com/eula).
+
+</string>
+			<key>License</key>
+			<string>Commercial License</string>
+			<key>Title</key>
+			<string>AppLovinSDK</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
 
 You are hereby granted a non-exclusive, worldwide, royalty-free license to use,

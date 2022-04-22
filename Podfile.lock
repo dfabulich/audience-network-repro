@@ -1,16 +1,25 @@
 PODS:
+  - AppLovinMediationFacebookAdapter (6.10.0.1):
+    - AppLovinSDK
+    - FBAudienceNetwork (= 6.10.0)
+  - AppLovinSDK (11.3.3)
   - FBAudienceNetwork (6.10.0)
 
 DEPENDENCIES:
-  - FBAudienceNetwork (~> 6.10)
+  - AppLovinMediationFacebookAdapter (= 6.10.0.1)
+  - AppLovinSDK
 
 SPEC REPOS:
   trunk:
+    - AppLovinMediationFacebookAdapter
+    - AppLovinSDK
     - FBAudienceNetwork
 
 SPEC CHECKSUMS:
+  AppLovinMediationFacebookAdapter: b337f711f92fa335b7771016c8810b48fc375ff7
+  AppLovinSDK: 6ed446d284d8852520a786ad5a91796f1730c3f3
   FBAudienceNetwork: 8600abb129fc1220e8e3bd969aebe6c89c5add8c
 
-PODFILE CHECKSUM: 23de6056761bc3ad73b5bcbe9af458af70799171
+PODFILE CHECKSUM: eb8166133603ed5283a14799190257fef6302be9
 
 COCOAPODS: 1.11.3

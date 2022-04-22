@@ -7,6 +7,7 @@
 
 #import <UIKit/UIKit.h>
 #import <FBAudienceNetwork/FBAudienceNetworkAds.h>
+#import <AppLovinSDK/AppLovinSDK.h>
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
